@@ -27,7 +27,6 @@ export default function Home() {
       <TestimonialSection data={data.testimonial} />
       <BlogSection data={data.blog} />
       
-      {/* Final section before the global Footer */}
       <CtaSection data={data.cta} />
     </div>
   );

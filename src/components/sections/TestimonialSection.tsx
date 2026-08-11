@@ -12,8 +12,7 @@ export default function TestimonialSection({ data }: TestimonialSectionProps) {
   return (
     <section className="py-12 md:py-20 bg-neutral-silver" id="testimonial">
       <Container className="flex flex-col md:flex-row gap-12 md:gap-20 items-center">
-        
-        {/* Left Column: Image */}
+    
         <div className="w-full md:w-1/3 flex justify-center md:justify-start">
           <img 
             src={data.imageUrl} 
@@ -22,7 +21,6 @@ export default function TestimonialSection({ data }: TestimonialSectionProps) {
           />
         </div>
 
-        {/* Right Column: Content */}
         <div className="w-full md:w-2/3 space-y-6">
           <p className="text-neutral-grey font-medium leading-relaxed text-base">
             "{data.quote}"
@@ -34,7 +32,6 @@ export default function TestimonialSection({ data }: TestimonialSectionProps) {
           </div>
 
           <div className="flex flex-wrap items-center gap-6 md:gap-8 pt-4">
-            {/* Map actual client logos */}
             <div className="flex items-center gap-4">
                {data.clientLogos.slice(0, 6).map((logo) => (
                 <img 

@@ -38,7 +38,6 @@ export default function CommunityFeaturesSection({ data }: CommunityFeaturesProp
               key={feature.id} 
               className="bg-white px-8 py-10 rounded-lg text-center flex flex-col items-center hover:shadow-lg transition-shadow border border-transparent hover:border-gray-50"
             >
-              {/* Figma specific icon background styling (bottom right and top left curve) */}
               <div className="w-16 h-16 bg-brand-primary/10 rounded-tl-[18px] rounded-br-[18px] rounded-tr-md rounded-bl-md flex items-center justify-center mb-6 text-brand-primary">
                 <IconMap name={feature.iconName} className="w-8 h-8" />
               </div>

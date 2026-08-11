@@ -8,7 +8,6 @@ import { LandingPageContent } from '@/types/landing';
 
 const inter = Inter({ subsets: ['latin'] });
 
-// Typecast to ensure absolute safety
 const data = pageData as LandingPageContent;
 
 export const metadata: Metadata = {

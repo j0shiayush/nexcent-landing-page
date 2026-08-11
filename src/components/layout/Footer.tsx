@@ -7,7 +7,6 @@ interface FooterProps {
   data: FooterData;
 }
 
-// Senior Engineer approach: Use inline SVGs for brand icons to avoid dependency bloat
 const SocialIcon = ({ name }: { name: string }) => {
   const baseClass = "w-5 h-5 fill-current";
   

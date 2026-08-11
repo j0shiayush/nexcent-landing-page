@@ -12,7 +12,6 @@ export default function Header({ data }: HeaderProps) {
     <header className="w-full bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
       <Container className="flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-2">
-          {/* A pure CSS placeholder for the logo icon until you add the SVG */}
           <div className="w-8 h-8 bg-brand-primary rounded-sm flex items-center justify-center">
             <div className="w-4 h-4 border-2 border-white rotate-45" />
           </div>

@@ -11,7 +11,6 @@ export default function SplitContentSection({ data }: SplitContentProps) {
     <section className="py-12 md:py-20 bg-white">
       <Container className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
         
-        {/* Left Column: Image/Illustration */}
         <div className="flex-1 w-full flex justify-center md:justify-start">
           <img 
             src={data.imageUrl} 
@@ -20,7 +19,6 @@ export default function SplitContentSection({ data }: SplitContentProps) {
           />
         </div>
         
-        {/* Right Column: Text Content */}
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl md:text-4xl font-semibold text-brand-secondary leading-snug">
             {data.title}

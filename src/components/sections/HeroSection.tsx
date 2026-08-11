@@ -11,7 +11,6 @@ export default function HeroSection({ data }: HeroSectionProps) {
     <section className="bg-neutral-silver py-16 md:py-24" id="home">
       <Container className="flex flex-col md:flex-row items-center justify-between gap-12">
         
-        {/* Left Column: Copy & Call to Action */}
         <div className="flex-1 space-y-8 max-w-2xl">
           <h1 className="text-4xl md:text-[64px] font-semibold leading-[1.2] text-brand-secondary">
             {data.titlePrefix} <br />
@@ -25,7 +24,6 @@ export default function HeroSection({ data }: HeroSectionProps) {
           </Button>
         </div>
 
-        {/* Right Column: Illustration */}
         <div className="flex-1 flex justify-center md:justify-end w-full">
           <img
             src={data.imageUrl}

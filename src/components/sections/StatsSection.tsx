@@ -24,7 +24,6 @@ export default function StatsSection({ data }: StatsSectionProps) {
     <section className="py-16 bg-neutral-silver">
       <Container className="flex flex-col md:flex-row items-center justify-between gap-12">
         
-        {/* Left Column: Headings */}
         <div className="flex-1 space-y-2">
           <h2 className="text-3xl md:text-4xl font-semibold text-brand-secondary leading-snug">
             {data.titlePrefix} <br />
@@ -35,7 +34,6 @@ export default function StatsSection({ data }: StatsSectionProps) {
           </p>
         </div>
 
-        {/* Right Column: 2x2 Grid */}
         <div className="flex-1 grid grid-cols-2 gap-8 md:gap-10 w-full">
           {data.items.map((stat) => (
             <div key={stat.id} className="flex items-center gap-4">
